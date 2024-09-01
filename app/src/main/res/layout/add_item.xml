@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:background="@drawable/border_light">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Add Crop"
+            android:clickable="true"
+            android:onClick="addCrop"
+            android:textStyle="bold"
+            android:background="@drawable/btn_lg_outlined"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Add Animal"
+            android:clickable="true"
+            android:onClick="addAnimal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_lg_contained"/>
+    </LinearLayout>
+</LinearLayout>
